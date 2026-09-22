@@ -103,7 +103,7 @@ Do you think the relationship between `hs` and `income` is strong or weak, linea
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 1 Answers"}
-* Delete this and put your text answer here.
+*Strong.
 :::
 
 ::: {.callout-note icon="false" title="Problem 2"}
@@ -146,7 +146,7 @@ Create a data visualization comparing median household income at "low" and "high
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 5 Answers"}
 ```{r}
-# Type your code and comments inside the code chunk
+ggplot(data = hate_crimes, aes(x = urbanization, y = income)) + geom_boxplot(fill = "lightpink") + theme_bw()
 
 ```
 :::
