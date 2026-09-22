@@ -112,11 +112,11 @@ Which regression line (high `urbanization` or low `urbanization`) in @fig-urb ha
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 2 Answers"}
 ```{r}
-# Type your code and comments inside the code chunk
-
+lm(income ~ hs*urbanization, data = hate_crimes) |> 
+  get_regression_table()
 ```
 
-* Delete this and put your text answer here.
+* high urbanization has the larger intercept.
 :::
 
 ::: {.callout-note icon="false" title="Problem 3"}
